@@ -1,0 +1,12 @@
+.button{
+    background-color: #FFB400;
+    width: 154px;
+    height: 51px;
+    border-radius: 5px;
+    padding-top:  16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    padding-left:  32px;
+    gap: 10px;
+
+}
