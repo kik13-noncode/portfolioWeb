@@ -67,4 +67,25 @@
     line-height: 24px; /* 160% */
     text-transform: capitalize;
 }
+.profile-icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 40px;
+    background-color: yellow;
+}
 
+.personal-info{
+    gap: 9px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.backgound-color{
+    background-color: yellow;
+    font-family: "inter";
+}
