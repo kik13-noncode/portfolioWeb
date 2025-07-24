@@ -6,7 +6,7 @@
 }
 .layout-container{
     display: flex;
-    position: relative;
+  position: relative;
     min-height: 100vh;
     background: #f0f0f6;
 }
@@ -37,12 +37,17 @@
 .profile-image{
     display: flex;
     justify-content: center;
+
+    
 }
 .profile-info{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 10px;
+    gap: 15px;
+    
 }
 .profile-name{
     color:#2B2B2B;
@@ -53,39 +58,63 @@
     font-weight: 500;
     line-height: 123.6%; /* 22.248px */
     text-transform: capitalize;
+    
 }
 .profile-title{
-    color: #767676;
+  color: #767676;
     font-kerning: none;
     font-feature-settings: 'calt' off;
 
     /* Paragraph Progress - 15 */
     font-family: Inter;
-    font-size: 15px;
+  font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 24px; /* 160% */
     text-transform: capitalize;
 }
 .profile-icon{
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    padding-left: 40px;
-    background-color: yellow;
+  position: absolute;
+  width: 219px;
+  height: 24px;
+  top: 257px;
+  left: 0;
 }
-
 .personal-info{
     gap: 9px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
-.backgound-color{
-    background-color: yellow;
-    font-family: "inter";
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 305px;
+    margin: 10px 0;
+}
+/* 24 BD*/
+.value1{
+    display: inline-block;
+    margin-left: 155px;
+    vertical-align: middle;
+}
+/* Available */
+.value2{
+    display: inline-block;
+    margin-left: 70px;
+    vertical-align: middle;
+}
+/* Dhaka... */
+.value3{
+    display: inline-block;
+    margin-left: 13px;
+    vertical-align: middle;
+}
+.info-label {
+    display: inline-block;
+    width: 100px;
+  height: 24px;
+    background-color: #FFB400;
+
 }
