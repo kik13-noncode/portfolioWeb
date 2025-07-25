@@ -36,8 +36,7 @@
 }
 .profile-image{
     display: flex;
-    justify-content: center;
-
+    justify-content: center; 
     
 }
 .profile-info{
@@ -112,9 +111,102 @@
     vertical-align: middle;
 }
 .info-label {
-    display: inline-block;
+    display: inline;
+    line-height: 1;
     width: 100px;
-  height: 24px;
+    height: 24px;
     background-color: #FFB400;
 
 }
+
+.text-langguages{
+    color:#2B2B2B;
+
+    /* H4 - 18px */
+    font-family: "inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 123.6%; /* 22.248px */
+    text-transform: capitalize;
+}
+.info-laguages
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+.name{
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: "inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+}
+.percent1{
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+    margin-left: 133px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.percent2{
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+
+    margin-left: 137px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.percent3{
+    color: var(--Paragraph-Font, #767676);
+    font-kerning: none;
+    font-feature-settings: 'calt' off;
+
+    /* Paragraph Progress - 15 */
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    text-transform: capitalize;
+
+    margin-left: 131px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.line-4{
+    width: 220px;
+    height: 0px;
+    outline: 1.50px #f0f0f6 solid;
+    outline-offset: -0.75px;
+    margin: 25px 40px 45px;
+}
+
+    
